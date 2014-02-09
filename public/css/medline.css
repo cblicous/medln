@@ -1,0 +1,87 @@
+* { 
+	margin: 0; padding: 0; }
+		
+	html { 
+			background: url(/images/background.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+		}
+	
+
+
+
+	article {
+			font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+			float:left;
+	}	
+
+
+	aside {
+			font-family: "Century Gothic", Verdana, Arial, Sans-Serif;
+			float:right;
+	}	
+	#page-wrap { 
+		width: 700px; 
+		height: 800px;
+		margin: 50px auto;
+		padding: 20px; 
+		background: #FFFFFF; 
+		/** Transparenz für alle browser **/
+		filter:alpha(opacity=80); 
+		opacity: 0.8; 
+		-moz-opacity:0.8;
+	
+	}
+
+
+#logo {
+	float: right;
+}
+
+#main {
+		width: 700px; 
+		  clear:both;
+}
+
+	/* Navigation formiattierung */
+.navbar  {
+	margin: 0;
+	padding: 0;
+	width: 700px; 
+	font-size: 1.2em;
+	background: #C0C0C0; 
+
+}
+
+
+.navbar li
+{
+	display: inline;
+	clear: both;
+	height: 2em;
+	list-style-type: none;
+}
+
+.navbar li a
+{
+
+	float: left;
+	display: inline-block;
+	padding: 4px;
+	text-decoration: none;
+	color: #666;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+
+/* Change background color and font color of parent items when mouse hover */
+.navbar li:hover a,
+.navbar li a:hover
+{
+	 background: #999;
+	 color: #fff;
+}
